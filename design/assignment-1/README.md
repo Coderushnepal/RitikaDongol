@@ -1,0 +1,1 @@
+Newspaper assignment using HTML and CSS
