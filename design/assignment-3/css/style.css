@@ -1,0 +1,849 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Playfair+Display:wght@400;500;600;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato';
+}
+body{
+    overflow-x: hidden;
+}
+h1, h2, h3{
+    font-family: 'Playfair Display', sans-serif;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    font-weight: 300;
+}
+.menu li{
+    list-style: none;
+    display: inline-block;
+    padding: 18px;
+}
+.navbar .nav-bar{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 30px;
+}
+.menu{
+    margin-right: 25px;
+}
+.menu .login{
+    padding-left: 220px;
+    margin-right: 88px;
+    font-weight: 700;
+}
+.menu i{
+    padding: 0 0 0 8px;
+}
+.navbar .brand a{
+    font-size: 35px;
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: 800;
+    margin-left: -100px;
+}
+.active a{
+    font-weight: 700;
+}
+/* section{
+    max-width: 1175px;
+} */
+/*------------- revolutionary-styling ------*/
+#revolutionary{
+    padding: 80px 0;
+
+}
+.revolutionary-container img{
+    width: 100%;
+    height: 400px;
+}
+.revolutionary-container .row{
+    display: flex;
+    flex:wrap;
+    justify-content: space-evenly;
+}
+.column{
+    width: 605px;
+    margin-left: 84px;
+}
+.revolutionary-title{
+    margin-top: 28px;
+}
+.revolutionary-title h2, span{
+    font-size: 40px;
+    font-family: 'Playfair Display', sans-serif;
+    line-height: 53px;
+
+}
+.revolutionary-title h2{
+    color: rgb(8, 8, 85);
+}
+.revolutionary-title span{
+    font-size: 40px;
+    color: #FF4C29;
+}
+.revolutionary-content{
+    width: 75%;
+}
+.revolutionary-content p{
+    padding: 20px 0;
+    color: gray;
+}
+.revolutionary-buttons button{
+    width: 30%;
+    padding: 10px;
+    margin: 38px 0 0 0;
+}
+.revolutionary-buttons .find{
+    background-color: #FF4C29;
+    border: 1px solid #FF4C29;
+    color: #fff
+}
+.revolutionary-buttons .contact{
+    background-color: #fff;
+    border: 1px solid #000;
+    margin-left: 10px;
+}
+
+/* ----------browse-by stylings----- */
+.browse-container{
+    margin: 46px;
+}
+.browse-container h2{
+    font-size: 32px;
+}
+.browse-container .row{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.card-img img{
+    width: 100%;
+    height: 230px;
+}
+.cards{
+    width: 355px;
+    height: 265px;
+    margin-left: 85px;
+    background-color: #2C394B;
+    color: #fff;
+}
+.card-inner{
+    background-color: #2C394B;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 35px;
+    padding-top: 8px;
+}
+.card-inner span{
+    font-size: 16px;
+    font-family: 'Lato';
+}
+.card-inner .number{
+    font-weight: 100;
+    font-size: 12px;
+}
+.card-inner i{
+    padding-right: 6px;
+    font-size: 15px;
+
+}
+.card-text{
+    padding: 32px 36px;
+    height: 230px;
+}
+.card-text span{
+    font-size: 16px;
+    font-family: 'Lato';
+    color: rgb(228, 226, 226);
+}
+.card-text .number{
+    float: right;
+}
+.card-text p{
+    text-align: center;
+    font-size: 12px;
+    padding-top: 15px;
+    line-height: 14px;
+    color: #C2C2C2;
+}
+.card-inner2{
+    background-color: #FF4C29;
+    padding: 12px 35px;
+}
+.card-inner2 span{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Lato';
+    padding: 15px 30px;
+}
+.card-inner2 i{
+    padding-left:18px ;
+}
+.browse-container .column p{
+    font-size: 16px;
+    color: gray;
+    margin-left: 58px;
+}
+/* -------------all facility stylings------------- */
+#facility{
+    padding: 70px;
+}
+
+.facility-container h2, span{
+    font-size: 32px;
+    text-transform: capitalize;
+}
+.facility-container span{
+    color: #FF4C29;
+}
+.facility-container .row{
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+
+}
+.facility-container .column{
+    width: 400px;
+}
+.facility-container .column2{
+    width: 800px;
+    padding-left: 300px;
+}
+.facility-container ul{
+    padding: 15px 0;
+}
+.facility-container ul li{
+    font-size: 20px;
+    padding: 15px;
+    font-weight: 700;
+}
+.facility-container li button{
+    background-color: #FF4C29;
+    border: 1px solid #FF4C29;
+    color: #fff;
+    padding: 10px 15px;
+    font-size: 19px;
+    margin-left: -8px;
+}
+.facility-container .column2 img{
+    width: 100%;
+    margin-top: 45px;
+}
+.facility-container .column2 p{
+    color: gray;
+    font-size: 16px;
+}
+/* -------------------workspace stylinh---------- */
+.workspace-container h2, span{
+    font-size: 32px;
+    text-transform: capitalize;
+    line-height: 42px;
+    padding-bottom: 15px;
+}
+.workspace-container span{
+    color: #FF4C29;
+}
+.workspace-container .row{
+    display: flex;
+    align-items: center;
+    background-color: #F6F6F6;
+
+}
+.workspace-container .column-2{
+    width: 356px;
+    margin-left: 100px;
+    
+}
+.workspace-container .column-2 p{
+    color: gray;
+    padding-bottom: 58px;
+}
+.workspace-container .column-2 a{
+    text-decoration: none;
+    color: #086DE0;
+    font-size: 20px
+}
+
+/* -------what customer say stylings---- */
+.customers-container{
+    padding: 90px;
+}
+.customers-container h2, span{
+    font-size: 32px;
+    text-transform: capitalize;
+    line-height: 42px;
+    padding-bottom: 15px;
+}
+.customers-container .customer-title{
+    padding-left: 84px;
+    width: 328px;
+    height: 82px;
+    margin-bottom: 20px;
+}
+.customers-container span{
+    color: #FF4C29;
+}
+.customers-container .cards{
+    width: 395px;
+    height: 258px;
+    position: relative;
+
+}
+
+.customers-container .card-text .p{
+    margin-top: -29px;
+    color:#fff;
+    text-align: left;
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 88px;
+    font-weight: 300;
+    position: relative;
+    bottom: 10px;
+}
+
+.customer-profile .customer-img img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.customers-container .customer-profile{
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 25px;
+}
+.customers-container .customer-details{
+    padding-left: 12px;
+}
+.customers-container .customer-details p{
+    margin-top: -8px;
+}
+.customers-container .row{
+    display: flex;
+}
+.customers-container .swipe{
+    visibility: hidden;
+}
+/* -------------trusted companies stylings--- */
+.trusted-companies{
+    padding: 80px;
+}
+.trusted-companies .trusted-title{
+    text-align: center;
+}
+.trusted-companies  h2, span{
+    font-size: 32px;
+    text-transform: capitalize;
+    line-height: 42px;
+    padding-bottom: 15px;
+}
+.trusted-companies  .customer-title{
+    padding-left: 78px;
+    width: 328px;
+    height: 82px;
+    margin-bottom: 20px;
+}
+.trusted-companies  span{
+    color: #FF4C29;
+}
+.trusted-title p{
+    color: gray;
+}
+.trusted-companies .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 20px;
+}
+.trusted-companies .row .column{
+  width: 400px;
+}
+/* ----------trends stylings ------*/
+.trends-container{
+    padding: 0 80px 80px 80px;
+}
+.columns{
+    width: 360px;
+    margin:0 20px;
+}
+.trends-container .card{
+    width: 360px;
+    box-shadow: 0 10px 20px 0 rgba(5,16,44,.10);
+}
+.trends-container .trends-title{
+    padding-left: 95px;
+}
+.trends-container  h2, span{
+    font-size: 32px;
+    text-transform: capitalize;
+    line-height: 42px;
+
+}
+.trends-container .trends-title span{
+    color: #FF4C29;
+}
+
+.trends-container .card-inner-text{
+    padding: 12px 18px;
+}
+.trends-container .card-inner-text p{
+    font-size: 20px;
+    font-weight: 700;
+}
+.trends-container .card-inner-text span{
+    font-size: 10px;
+    font-family: 'Lato';
+    color: gray;
+}
+.trends-container .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.trends-container .text-content h3{
+    font-family: 'Lato';
+    font-size: 20px;
+    line-height: 24px;
+}
+.trends-container .text-content p{
+    text-align: left;
+    color: rgb(85, 84, 84);
+    line-height: 18px;
+    padding-bottom: 10px;
+}
+.trends-container .card-inner2 span{
+    color: blue;
+}
+.trends-container .text-content span{
+    font-size: 10px;
+    color: rgb(160, 159, 159);
+}
+.trends-container .text-content{
+    width: 360px;
+    height: 280px;
+}
+.trends-container .text-content img{
+    width: 32px;
+    height: 32px;
+    border-radius:50% ;
+    display: flex;
+
+}
+/* ------------footer stylings--- */
+footer{
+    padding: 50px 80px;
+    background-color: #f6f6f6;
+    margin: 50px 0 0 0;
+}
+footer .row{
+    display: flex;
+    padding: 20px;
+}
+footer ul li{
+    list-style-type: none;
+}
+footer li a{
+    text-decoration: none;
+    color: gray;
+}
+
+footer h1{
+    font-size: 48px;
+    font-weight: 400;
+}
+footer h4{
+    padding-bottom: 18px;
+    font-size: 17px;
+}
+footer li {
+    padding: 10px 0px;
+}
+footer .phone{
+    font-weight: 600;
+}
+footer .language{
+    padding-left: 30px;
+}
+footer .us{
+    color: blue;
+    font-size: 18px;
+    font-weight: 600;
+}
+footer ul.icons li{
+    display: inline;
+    padding: 8px;
+
+}
+footer .icons{
+    margin-top: 32px;
+    margin-left: 10px;
+}
+
+footer .fa{
+    font-size: 22px;
+    padding: 0 8px;
+}
+footer .location{
+    padding-top: 22px;
+    font-weight: 600;
+}
+footer .landing{
+
+    text-align: center;
+    margin-top: 32px;
+    padding-bottom: 20px;
+}
+footer .landing p{
+    font-weight: 300;
+}
+footer .landing span{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Lato';
+}
+
+/* -----------responsive------- */
+.navbar .toggle{
+    visibility: hidden;
+}
+@media screen and (max-width:768px) {
+    .navbar .menu{
+        display: none;
+    }
+    .navbar .brand{
+        padding-right: 100px;
+    }
+    .navbar .toggle{
+        visibility: visible;
+    }
+    .revolutionary-title h2, .revolutionary-title span{
+        font-size: 25px;
+        line-height: 42px;
+        
+    }
+    .revolutionary-content p{
+        font-size: 12px;
+    }
+    .revolutionary-container .revolutionary-buttons button{
+        font-size: 10px;
+    }
+    .browse-container{
+        padding: 0;
+        margin: 0;
+    }
+    .block{
+        display: block;
+    }
+    .browse-container h2{
+        font-size: 25px;
+    }
+    .browse-container .column p{
+        font-size: 12px;
+        padding: 0;
+        margin: 0;
+        display: block;
+    }
+   
+    .browse-container .cards{
+        margin: 10px;
+        padding: 0;
+    }
+    .browse-container .card-inner2 span{
+        font-size: 12px;
+   
+    }
+    .browse-container .card-inner2 i{
+        display: none;
+    }
+    .facility-container .column h2{
+        font-size: 25px;
+        padding: 0;
+        margin-left: -50px;
+        
+    }
+    .facility-container .column span{
+        font-size: 25px;
+    }
+    .facility-container .block{
+        display: block;
+        padding: 0;
+        margin: 0;
+    }
+    .facility-container .column2 img{
+        padding: 0;
+        margin: 0; 
+        width: 350px;
+        margin-left: -210px;
+    }
+    .facility-container ul li{
+        font-size: 14px;
+        margin-left: -70px;
+        
+    }
+    .facility-container li button{
+        font-size: 12px;
+    }
+    .facility-container .column2 p{
+        padding: 0;
+        margin-left: -264px;
+        width: 500px;
+    }
+    .workspace-container .block{
+        display: block;
+        width: 768px;
+    }
+    .workspace-container h2, .workspace-container span{
+        font-size: 25px;
+    }
+    .workspace-container p{
+        font-size: 13px;
+    }
+    .workspace-container .column-2 a{
+        font-size: 16px;
+
+    }
+    .customers-container h2, .customers-container span{
+        font-size: 25px;
+        padding: 0;
+
+    }
+    .customers-container h2{
+        margin-left: -90px;
+    }
+    .customers-container .none{
+        display: none;
+    }
+    .customers-container .cards{
+        padding: 0;
+        margin: 10px;
+    }
+    .customers-container .cards .p{
+        font-size: 13px;
+    }
+    .customers-container .customer-profile{
+        margin-top: -20px;
+    }
+    .customers-container .customer-details h4{
+        font-size: 12px;
+    }
+    .customers-container .customer-details p{
+        font-size: 10px;
+    }
+    .trusted-companies{
+        padding: 0;
+        margin: 0;
+    }
+    .trusted-companies .trusted-title h2{
+        font-size: 25px;
+    }
+    .trusted-companies .trusted-title p{
+        font-size: 12px;
+    }
+    /* .trusted-companies .row{
+        padding: 50px 0px;
+    } */
+    .trusted-companies .column img{
+        width: 90px;
+        
+      }
+    .trusted-companies .trusted-content{
+        padding: 0;
+        margin: 0;
+        
+    }
+    .trends-container .trends-title h2,.trends-title span{
+        font-size: 25px;
+    }
+    .trends-container .none{
+        display: none;
+    }
+    .trends-container .card{
+        width: 320px;
+    }
+    footer .none{
+        display: none;
+    }
+    footer .landing hr{
+        display: none;
+    }
+    footer .landing{
+        border-top:2px solid #000;
+    }
+}
+@media screen and (max-width:600px) {
+    
+    .navbar .menu{
+        display: none;
+    }
+    .navbar .brand{
+        padding-right: 100px;
+    }
+    .navbar .toggle{
+        visibility: visible;
+    }
+    .revolutionary-container{
+        margin-top: -80px;
+    }
+    .revolutionary-container .row{
+        display: block;
+        
+    }
+    .column{
+        width:600px ;
+        margin: 0;
+        padding: 0px 0px;
+    }
+    .revolutionary-container .revolutionary-title h2{
+        padding: 0 10px;
+        font-size: 36px;
+
+    }
+    .revolutionary-container .revolutionary-title span{
+        font-size: 36px;
+    }
+    .revolutionary-buttons button{
+        display: block;
+        width: 92%;
+        padding:20px;
+    }
+    .revolutionary-buttons .find{
+        margin: 10px;
+    }
+    .revolutionary-content p{
+        padding-left: 10px;
+    }
+    .browse-container .row{
+        display: block;
+        padding-left: 30px;
+    }
+    .browse-container .column{
+        width: 500px;
+    }
+    .browse-container .column h2{
+        margin: 0;
+        padding: 0;
+        width: 450px;
+    }
+    .browse-container .column p{
+        margin-left: 0px;
+        padding: 10px 0;
+        width: 500px;
+    }
+    .browse-container .cards{
+        padding: 0;
+        margin:  0;
+        width: 450px;
+        
+    }
+    .browse-container .row .cards{
+        margin-top: 40px;
+    }
+    .facility-container .row{
+        display: block;
+    }
+    .facility-container .column2{
+    margin: 0;
+    }
+    .facility-container .column2 p{
+        display: none;
+        width: 400px;
+        padding: 0;
+        margin: 0;
+    }
+    .facility-container .column2 img{
+        display: none;
+    }
+    .facility-container ul li{
+        text-align: center;
+        font-size: 16px;
+    }
+    .facility-container ul button{
+        font-size: 16px;
+    }
+    .workspace-container .row{
+        display: block;
+    }
+    .workspace-container .column-1 img{
+        width: 600px;
+    }
+    .customers-container .row{
+        display: block;
+        padding: 0;
+    }
+    .customer-title h2{
+        margin-left: -80px;
+    }
+    .customers-container .card1{
+        display: none;
+    }
+    .customers-container .cards{
+        width: 460px;
+        margin: 0;
+        padding: 0;
+    }
+    .customers-container .swipe{
+        visibility: visible;
+        text-decoration: none;
+        font-size: 22px;
+        color: #086DE0;
+    }
+    .customers-container .swipe i{
+        padding: 20px;
+    }
+    
+    .trusted-companies .trusted-title {
+    text-align: left;
+    }
+    .trusted-companies .row{
+        display: block;
+    }
+    .trusted-companies .row .column{
+        margin: 0;
+        padding: 0 0 25px 0;
+        text-align: center;
+    
+    }
+    .trends-container .row{
+        display: block;
+    }
+    .trends-title{
+        padding: 0;
+        margin: 0;
+    }
+    .trends-title h2{
+        margin-left: -80px;
+        width: 300px;
+    }
+    .trends-container .card{
+        margin-top: 10px;
+    }
+    .trends-container .none{
+        display: none;
+    }
+    footer{
+        width: 595px;
+    }
+    footer .none{
+        display: none;
+    }
+    body{
+        width: 600px;
+    }
+    footer .landing{
+        border-top: 1px solid #000;
+    }
+    footer hr{
+        display: none;
+    }
+    
+}
