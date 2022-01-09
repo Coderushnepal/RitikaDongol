@@ -1,0 +1,13 @@
+function newWord(str)
+		{
+		    var output = str.substr(1);
+		    return output;
+		}
+
+		console.log(newWord("apple"));
+		console.log(newWord("cherry"));
+		console.log(newWord("plum"));
+VM72:7 pple
+VM72:8 herry
+VM72:9 lum
+undefined

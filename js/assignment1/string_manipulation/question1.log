@@ -1,0 +1,14 @@
+function giveMeSomething(str)
+		{
+		    var str = "something";
+		    var output = str.concat(" ", str);
+		    return output;
+		}
+
+		console.log(giveMeSomething("is better than nothing"));
+		console.log(giveMeSomething("Bob Jane"));
+		console.log(giveMeSomething("something"));
+VM92:8 something is better than nothing
+VM92:9 something Bob Jane
+VM92:10 something something
+undefined
