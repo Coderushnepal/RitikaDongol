@@ -541,6 +541,97 @@ select{
     color: #fff;
 }
 }
+
+@media screen and (max-width:768px) {
+    .max-width{
+        max-width: 768px;
+    }
+    .nav-container{
+        background-color: #252B42;
+        padding:36px 0px;
+    }
+    .nav-container .menu{
+        display: none;
+    }
+    .nav-container .login{
+        display: none;
+    }
+    .nav-container .icons{
+        visibility: visible;
+        color: #fff;
+        padding-left: 20px;
+        
+    }
+    .brand{
+        padding: 0;
+        margin-left: -80px;
+    }
+    .icons{
+        margin-right: -80px;
+    }
+    .icons i{
+        padding:8px 14px;
+        font-size: 20px;
+        font-weight: 100;
+    }
+    .banner-content h1{
+        font-size: 42px;
+        text-align: center;
+        line-height: 48px;
+    }
+    .banner-content p{
+        text-align: center;
+        font-size: 16px;
+    }
+    .feature-container{
+        padding:52px 0;
+    }
+    .feature-container p{
+        font-size: 10px
+    }
+    .testimonal-content .column1{
+        /* display: block;
+        text-align: center; */
+        margin-right:18px;
+    }
+    .testimonal-content .column2{
+        margin-left: 36px;
+    }
+    .testimonal-content p{
+        font-size: 12px;
+    }
+    .box2{
+        margin-left:38px ;
+    }
+    .box3, .box4{
+        display: none;
+    }
+    .contact-content{
+        padding: 20px 80px;
+    }
+    textarea{
+        width: 582px;
+    }
+    .consulting-container{
+        padding: 28px 70px;
+    }
+    .heading h3{
+        font-size: 20px;
+    }
+    .consulting-container button{
+        padding: 10px 15px;
+    }
+    .footer-container li h6{
+        font-size: 12px;
+    }
+    .footer-container ul li{
+        font-size: 10px;
+    }
+    .end-container{
+        padding: 20px 56px;
+    }
+   
+}
 /* @media screen and (max-width:416px) {
     .max-width{
         max-width: 414px;
