@@ -18,6 +18,7 @@ function Ball(size, id) {
     this.element.style.left = position.left + "px";
 
     var direction = 1;
+    var directionLeft = 1;
     this.element.addEventListener("click", function (event) {
       console.log(this.id);
     
@@ -30,6 +31,16 @@ function Ball(size, id) {
           }
           if (parseInt(newTop) <= 0){
             direction *= -1;
+          }
+
+          var newLeft = parseInt(event.target.style.left) + 3*directionLeft + "px";
+          event.target.style.left = newLeft;
+
+          if (parseInt(newLeft) >= containerSize - defaultBallSize) {
+              directionLeft *= -1;
+          }
+          if (parseInt(newLeft) <= 0){
+            directionLeft *= -1;
           }
       }, 1000/60);
   });  
